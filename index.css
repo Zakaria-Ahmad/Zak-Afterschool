@@ -1,0 +1,23 @@
+h1 {
+    font-family: "Andale Mono", monospace;
+}
+
+body {
+    text-align: center;
+    background: rgb(3,36,205);
+    background: radial-gradient(circle, rgba(3,36,205,1) 0%, rgba(89,252,70,1) 100%);
+
+}
+
+#ButtonContainer {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ButtonContainer button {
+    width: 33vw;
+    height: 7vh;
+    margin: 0 10px;
+}
